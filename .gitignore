@@ -1,0 +1,93 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux/Unix
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IntelliJ / Eclipse / VS Code
+.idea/
+.settings/
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+
+# Environment / credentials
+.env
+*.secret
+*.key
+
+# Build tools
+build/
+.gradle/
+out/
+
+# Others
+*.swp
+*.swo
+
+# Node (if mixed stack)
+node_modules/
+
+# Ignore backup or temp files
+*.bak
+*.tmp
+*.orig
+*.old
+
+# Optional: exclude system scripts or OS-specific files
+*.cmd
+*.sh
+
+# ✅ Keep these project files (do NOT ignore):
+# - .gitattributes
+# - .gitignore
+# - pom.xml
+# - mvnw
+# - mvnw.cmd
+# - compose.yaml
+# - src/
+# - .mvn/
